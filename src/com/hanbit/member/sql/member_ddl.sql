@@ -1,0 +1,10 @@
+CREATE TABLE Member(
+	id VARCHAR2(10),
+	pw VARCHAR2(10),
+	name VARCHAR2(20),
+	ssn VARCHAR2(15),
+	regdate DATE,
+	PRIMARY KEY(id)
+);
+SELECT * FROM Member;
+DROP TABLE Member;
